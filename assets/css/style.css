@@ -1,0 +1,20 @@
+#myname {
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 30px;
+    margin-top: 80px;
+    margin-right: 275px;
+    margin-left: 275px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+}
+
+.navmenu {
+    margin-top: 80px;
+    margin-right: 275px;
+}
+
+.middlesection {
+    background-color: green;
+}
