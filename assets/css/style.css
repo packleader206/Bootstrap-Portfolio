@@ -1,20 +1,109 @@
 #myname {
     background-color: #4aaaa5;
+    font-weight: bold;
+    color: white;
     text-align: center;
     padding: 30px;
-    margin-top: 80px;
-    margin-right: 275px;
+    margin-top: 20px;
+    margin-right: 245px;
     margin-left: 275px;
     font-size: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif
-    
+    font-family: Georgia, 'Times New Roman', Times, serif  
 }
 
+h1.title {
+    color: #4aaaa5;
+    font-weight: bold;
+    
+}
 .navmenu {
-    margin-top: 80px;
+    margin-top: 50px;
     margin-right: 275px;
+}
+
+#headshot {
+    width: 200px;
+    float: left;
+    padding-right: 10px;
 }
 
 .middlesection {
-    background-color: green;
+    background-image: URL("../images/skulls.png");
+    height: 780px;
 }
+
+.middlesectionportfolio {
+    background-image: URL("../images/skulls.png");
+    height: 1100px;
+}
+
+.content {
+    margin-left: 275px;
+    margin-right: 275px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.innercolumn {
+    padding: 20px;
+    width: 100%;
+}
+
+.portfoliocolumn {
+    background: white;
+    padding: 20px;
+    width: 100%;
+}
+
+form {
+    width: 100%;
+}
+footer {
+    text-align: center;
+    font-size: 8px;
+    background-color: #666666;
+    height: 60px;
+    padding-top: 40px;
+}
+
+.thumbnail {
+    position: relative;
+    margin: 20px;
+}
+
+.caption {
+    position: absolute;
+    top: 75%;
+    left: 0;
+    width: 100%;
+    background-color: #4aaaa5; 
+}
+
+
+
+/*below is some CSS code I tried while troubleshooting layout. I decided
+to keep this in here for future reference*/
+
+/*placeholder1 {
+      margin: 40px;
+      position: relative;
+      background-color: #4aaaa5;
+  }*/
+
+  /*.banner1 {
+      position: absolute;
+      background-color: #4aaaa5;
+  }*/
+
+   /* h3.banner {
+      background-color: #4aaaa5;
+      text-align: center;
+      color: black;
+      position: absolute;
+  }*/
+
+
+  
